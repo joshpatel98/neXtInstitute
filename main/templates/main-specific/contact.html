@@ -1,0 +1,26 @@
+<!doctype HTML>
+
+{% extends "main-sitewide/base.html" %}
+
+{% load static %}
+
+{% block links %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/main-sitewide/introBanner.css' %}">
+
+{% endblock links %}
+
+{% block body %}
+
+<HTML>
+
+<body>
+    <!-- Banner -->
+    <div class="intro-banner img-cont">
+        <img class="object-fit_contain" src="{% static 'images/main-specific/contactusbanner.png' %}" alt="home-major-image-1">
+    </div>
+
+</body>
+
+</HTML>
+{% endblock body %}
